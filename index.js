@@ -16,4 +16,4 @@ console.log(x);
 let addTwoNumbers = (x, y) => { 
   return x + y;              
 };                               
-console.log(addTwoNumbers(1, 8));
+console.log(addTwoNumbers(1, 10));

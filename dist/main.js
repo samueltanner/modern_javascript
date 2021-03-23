@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar mathjs = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"Hello from JS\");\nvar datetime = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(datetime);\nconsole.log(mathjs.sqrt(22));\nvar x = 5;\nconsole.log(x);\n\nvar addTwoNumbers = function addTwoNumbers(x, y) {\n  return x + y;\n};\n\nconsole.log(addTwoNumbers(1, 8));\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar mathjs = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"Hello from JS\");\nvar datetime = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(datetime);\nconsole.log(mathjs.sqrt(22));\nvar x = 5;\nconsole.log(x);\n\nvar addTwoNumbers = function addTwoNumbers(x, y) {\n  return x + y;\n};\n\nconsole.log(addTwoNumbers(1, 10));\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
 
 /***/ }),
 
